@@ -4,7 +4,7 @@ import { useRef, useState } from 'react';
 export default function Wanted() {
     const sliderRef = useRef(null);
     const scrollAmount = 390;
-    const [images, setImages] = useState([
+    const [images] = useState([
         { id: 1, imageUrl: "/images/rabbit1.png" },
         { id: 2, imageUrl: "/images/rabbit2.png" },
         { id: 3, imageUrl: "/images/rabbit3.png" },
