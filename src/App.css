@@ -12,10 +12,6 @@
   font-style: normal;
 }
 
-root {
-
-}
-
 body {
   background-color: #26223A;
   font-family: "Silkscreen", sans-serif;
@@ -23,8 +19,12 @@ body {
   font-style: normal;
 }
 
+:root{
+  overflow-x: clip;
+}
+
 .navbar {
-  height: 100px;
+  height: 80px;
   background-color: black;
   color: white;
   margin: 30px;
@@ -74,14 +74,14 @@ body {
 .right {
   background-color: #00E300;
   width: 250px;
-  height: 100px;
+  height: 60px;
   font-size: 27px;
   align-items: center;
   justify-content: center;
   display: flex;
   border-radius: 20px;
   position: relative;
-  left: 12px;
+  left: 0;
   font-family: 'Upheavtt', sans-serif;
 }
 
@@ -232,6 +232,7 @@ body {
   position: relative;
   overflow: hidden;
   margin-top: 20px;
+  height: 86px;
 }
 
 .footer-content {
@@ -247,15 +248,16 @@ body {
 .footer-text {
   flex: 1;
   min-width: 200px;
-  text-align: left;
+  text-align: center;
+  justify-content: center;
 }
 
 .footer-text p img{
-  width: 20px;
+  width: 35px;
 }
 
 .footer-text p {
-  margin: 0.2rem 0;
+  margin: 1.2rem 0;
   font-size: clamp(1.8rem, 2vw, 1rem);
 }
 
@@ -266,8 +268,8 @@ body {
 
 .coin-image {
   position: relative;
-  bottom:63px;
-  width: clamp(60px, 15vw, 120px);
+  bottom:140px;
+  width: clamp(60px, 15vw, 200px);
   transition: transform 0.3s ease;
   filter: drop-shadow(0 2px 5px rgba(0,0,0,0.3));
 }
@@ -290,7 +292,7 @@ body {
 }
 
 .coin-image {
-  width: clamp(50px, 20vw, 80px);
+  width: clamp(200px, 20vw, 80px);
 }
 
 .marketplace-btn{
@@ -841,7 +843,8 @@ z-index: -1;
   }
 
   .footer-coin img{
-    bottom: 50px;
+    bottom: 140px;
+    width: 200px;
   }
 }
 
