@@ -11,13 +11,13 @@ export default function Navbar() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav  mb-2 mb-lg-4">
         <li className="nav-item"> 
-          <a className="nav-link" aria-current="page" href="/">NFTS</a>
+          <a className="nav-link" aria-current="page" href="#nft">NFTS</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">MARKETPLACE</a>
+          <a className="nav-link" href="#marketplace">MARKETPLACE</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">AUCTION HOUSE</a>
+          <a className="nav-link" href="#auctionHouse">AUCTION HOUSE</a>
         </li>
       </ul>
       <div className='right rounded-start-0'>

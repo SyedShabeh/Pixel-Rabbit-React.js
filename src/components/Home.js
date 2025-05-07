@@ -6,6 +6,7 @@ export default function Home() {
 
   return (
     <div
+      id='nft'
       className='home d-flex align-items-center ig-fluid'
       style={{
         background: 'url(/images/hero.png) no-repeat center center/cover',

@@ -164,7 +164,8 @@ export default function Meet() {
               </p>
               <h5 style={{
                 ...styles.title(member.color),
-                animation: 'pulse 2s infinite'
+                animation: 'pulse 2s infinite',
+                fontFamily: 'Upheavtt',
               }}>
                 {member.title}
               </h5>

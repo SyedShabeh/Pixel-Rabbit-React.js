@@ -17,7 +17,7 @@ export default function Wanted() {
 
     return (
         <div>
-            <div className="wanted text-center text-white">
+            <div id='marketplace' className="wanted text-center text-white">
                 <h1>YOU ARE WANTED</h1>
                 <p>MEET OUR 420 ORDINAL RABBITS COLLECTION</p>
                 <p>AND THEIR DIFFERENT ELEMENTS</p>
