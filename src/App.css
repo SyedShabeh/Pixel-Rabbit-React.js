@@ -65,9 +65,13 @@ body {
   color: white;
 }
 
+.nav-link{
+  margin-top: 20px;
+}
+
 .navbar-brand img {
-  width: 54.83px;
-  height: 68.37px;
+  width: 50px;
+  height: 55px;
   margin-left: 30px;
 }
 
